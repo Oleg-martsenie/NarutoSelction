@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+.header {
+    background-color: #CCC;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #FFF;
+    font-weight: 900;
+    background-color: royalblue;
+    margin-bottom: 2%;
+    padding: .8rem 0;
+}
+
+.box-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin: 0 auto;
+    width: 800px;
+    max-width: 100%;
+}
+
+.box-input input {
+    width: 85%;
+    padding: .8rem 2rem;
+    outline: none;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    border: .1rem dotted transparent;
+    color: #454545;
+}
+.box-input input:focus {
+    border: .1rem dotted #EEE;
+}
+
+.valorDigitado {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 600px;
+    max-width: 100%;
+    padding: 90px;
+    line-height: 25px;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.btn-area {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+button {
+    color: #FFF;
+    background-color: transparent;
+    border: .1rem solid royalblue;
+    cursor: pointer;
+    border-radius: .5rem;
+    padding: .8rem 1rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    flex: 1;
+    margin: 2% .3rem;
+}
+ img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.naruto {
+    background-image: url('https://letsgeek.com.br/wp-content/uploads/2021/04/maxresdefault-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.itachi {
+    background-image: url('https://ovicio.com.br/wp-content/uploads/2020/10/20201007-naruto-itachi-uchiha-anime-tribute-1239755-1280x0-1.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sakura {
+    background-image: url('https://psxbrasil.com.br/wp-content/uploads/2021/06/naruto-to-boruto.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sasuke {
+    background-image: url('https://sm.ign.com/ign_br/screenshot/default/sasuke-2_xg35.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.kakashi {
+    background-image: url('https://criticalhits.com.br/wp-content/uploads/2021/01/kakashi-2-910x485.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+@media screen and (max-width:768px) {
+    .btn-area {
+        justify-content: center;
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    
+    button {
+        width: 100%;
+    }
+}
